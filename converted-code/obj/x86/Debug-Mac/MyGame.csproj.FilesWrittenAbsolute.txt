@@ -1,0 +1,2 @@
+/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/obj/x86/Debug-Mac/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/SwinGame.dll
