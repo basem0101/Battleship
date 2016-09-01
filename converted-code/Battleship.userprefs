@@ -1,9 +1,16 @@
 ﻿<Properties StartupItem="MyGame.csproj">
   <MonoDevelop.Ide.ItemProperties.MyGame PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Model/SeaGrid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/UtilityFunctions.cs">
     <Files>
-      <File FileName="src/GameResources.cs" Line="284" Column="12" />
-      <File FileName="src/Model/SeaGrid.cs" Line="26" Column="14" />
+      <File FileName="src/DiscoveryController.cs" Line="41" Column="42" />
+      <File FileName="src/GameController.cs" Line="377" Column="2" />
+      <File FileName="src/EndingGameController.cs" Line="1" Column="19" />
+      <File FileName="src/GameLogic.cs" Line="2" Column="1" />
+      <File FileName="src/GameResources.cs" Line="298" Column="2" />
+      <File FileName="src/GameState.cs" Line="48" Column="2" />
+      <File FileName="src/HighScoreController.cs" Line="1" Column="1" />
+      <File FileName="src/MenuController.cs" Line="315" Column="2" />
+      <File FileName="src/UtilityFunctions.cs" Line="312" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
