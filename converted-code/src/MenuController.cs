@@ -1,9 +1,4 @@
 using SwinGameSDK;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 
 /// <summary>
 /// The menu controller handles the drawing and user interactions
@@ -318,10 +313,3 @@ static class MenuController
 		}
 	}
 }
-
-//=======================================================
-//Service provided by Telerik (www.telerik.com)
-//Conversion powered by NRefactory.
-//Twitter: @telerik
-//Facebook: facebook.com/telerik
-//=======================================================

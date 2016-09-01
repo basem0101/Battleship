@@ -1,7 +1,4 @@
 using SwinGameSDK;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 
 /// <summary>
@@ -313,10 +310,3 @@ static class UtilityFunctions
 		}
 	}
 }
-
-//=======================================================
-//Service provided by Telerik (www.telerik.com)
-//Conversion powered by NRefactory.
-//Twitter: @telerik
-//Facebook: facebook.com/telerik
-//=======================================================

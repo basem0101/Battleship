@@ -1,8 +1,5 @@
 using SwinGameSDK;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 
 /// <summary>
 /// The AIPlayer is a type of player. It can readomly deploy ships, it also has the
@@ -141,10 +138,3 @@ public abstract class AIPlayer : Player
 		}
 	}
 }
-
-//=======================================================
-//Service provided by Telerik (www.telerik.com)
-//Conversion powered by NRefactory.
-//Twitter: @telerik
-//Facebook: facebook.com/telerik
-//=======================================================
