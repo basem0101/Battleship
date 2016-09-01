@@ -1,11 +1,5 @@
-
-using Microsoft.VisualBasic;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-using System.Diagnostics;
 using SwinGameSDK;
+using System.Collections.Generic;
 
 public static class GameResources
 {
@@ -69,7 +63,7 @@ public static class GameResources
 
 	public static Font GameFont(string font)
 	{
-		return _Fonts(font);
+		return new Font(font);
 	}
 
 	/// <summary>
@@ -80,7 +74,7 @@ public static class GameResources
 
 	public static Bitmap GameImage(string image)
 	{
-		return _Images(image);
+		return new Bitmap(image);
 	}
 
 	/// <summary>
@@ -91,7 +85,7 @@ public static class GameResources
 
 	public static SoundEffect GameSound(string sound)
 	{
-		return _Sounds(sound);
+		return new SoundEffect(sound);
 	}
 
 	/// <summary>
@@ -102,7 +96,7 @@ public static class GameResources
 
 	public static Music GameMusic(string music)
 	{
-		return _Music(music);
+		return new Music(music);
 	}
 
 	private static Dictionary<string, Bitmap> _Images = new Dictionary<string, Bitmap>();
@@ -302,10 +296,3 @@ public static class GameResources
 		SwinGame.ProcessEvents();
 	}
 }
-
-//=======================================================
-//Service provided by Telerik (www.telerik.com)
-//Conversion powered by NRefactory.
-//Twitter: @telerik
-//Facebook: facebook.com/telerik
-//=======================================================

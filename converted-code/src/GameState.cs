@@ -1,9 +1,8 @@
-
+using SwinGameSDK;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 /// <summary>
 /// The GameStates represent the state of the Battleships game play.

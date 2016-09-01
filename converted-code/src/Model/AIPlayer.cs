@@ -1,10 +1,9 @@
-
-using Microsoft.VisualBasic;
+using SwinGameSDK;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
+
 /// <summary>
 /// The AIPlayer is a type of player. It can readomly deploy ships, it also has the
 /// functionality to generate coordinates and shoot at tiles
@@ -72,6 +71,11 @@ public abstract class AIPlayer : Player
 		public static bool operator !=(Location @this, Location other)
 		{
 			return @this == null || other == null || @this.Row != other.Row || @this.Column != other.Column;
+		}
+
+		public override bool Equals(Object o){
+
+			return this != null && o != null && this.Row == ((Location)o).Row && this.Column == ((Location)o).Column;
 		}
 	}
 

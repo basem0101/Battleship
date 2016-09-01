@@ -1,9 +1,7 @@
-
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 /// <summary>
 /// AIHardPlayer is a type of player. This AI will know directions of ships
@@ -49,7 +47,7 @@ public class AIHardPlayer : AIPlayer
 		}
 
 		/// <summary>
-		/// If source shot and shootat shot are on the same row then 
+		/// If source shot and shootat shot are on the same row then
 		/// give a boolean true
 		/// </summary>
 		public bool SameRow {
@@ -57,8 +55,8 @@ public class AIHardPlayer : AIPlayer
 		}
 
 		/// <summary>
-		/// If source shot and shootat shot are on the same column then 
-		/// give a boolean true 
+		/// If source shot and shootat shot are on the same column then
+		/// give a boolean true
 		/// </summary>
 		public bool SameColumn {
 			get { return _ShotAt.Column == _Source.Column; }
@@ -228,9 +226,9 @@ public class AIHardPlayer : AIPlayer
 	}
 
 	/// <summary>
-	/// RemoveShotsAround will remove targets that belong to the destroyed ship by checking if 
+	/// RemoveShotsAround will remove targets that belong to the destroyed ship by checking if
 	/// the source of the targets belong to the destroyed ship. If they don't put them on a new stack.
-	/// Then clear the targets stack and move all the targets that still need to be shot at back 
+	/// Then clear the targets stack and move all the targets that still need to be shot at back
 	/// onto the targets stack
 	/// </summary>
 	/// <param name="toRemove"></param>
@@ -264,7 +262,7 @@ public class AIHardPlayer : AIPlayer
 	/// ProcessHit gets the last hit location coordinates and will ask AddTarget to
 	/// create targets around that location by calling the method four times each time with
 	/// a new location around the last hit location.
-	/// It will then set the state of the AI and if it's not Searching or targetingShip then 
+	/// It will then set the state of the AI and if it's not Searching or targetingShip then
 	/// start ReOrderTargets.
 	/// </summary>
 	/// <param name="row"></param>
@@ -307,8 +305,8 @@ public class AIHardPlayer : AIPlayer
 
 	/// <summary>
 	/// MoveToTopOfStack will re-order the stack by checkin the coordinates of each target
-	/// If they have the right column or row values it will be moved to the _Match stack else 
-	/// put it on the _NoMatch stack. Then move all the targets from the _NoMatch stack back on the 
+	/// If they have the right column or row values it will be moved to the _Match stack else
+	/// put it on the _NoMatch stack. Then move all the targets from the _NoMatch stack back on the
 	/// _Targets stack, these will be at the bottom making them less important. The move all the
 	/// targets from the _Match stack on the _Targets stack, these will be on the top and will there
 	/// for be shot at first
