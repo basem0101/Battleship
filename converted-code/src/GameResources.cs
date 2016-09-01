@@ -63,7 +63,7 @@ public static class GameResources
 
 	public static Font GameFont(string font)
 	{
-		return new Font(font);
+		return _Fonts[font];
 	}
 
 	/// <summary>
@@ -74,7 +74,7 @@ public static class GameResources
 
 	public static Bitmap GameImage(string image)
 	{
-		return new Bitmap(image);
+		return _Images[image];
 	}
 
 	/// <summary>
@@ -85,7 +85,7 @@ public static class GameResources
 
 	public static SoundEffect GameSound(string sound)
 	{
-		return new SoundEffect(sound);
+		return _Sounds[sound];
 	}
 
 	/// <summary>
@@ -96,7 +96,7 @@ public static class GameResources
 
 	public static Music GameMusic(string music)
 	{
-		return new Music(music);
+		return _Music[music];
 	}
 
 	private static Dictionary<string, Bitmap> _Images = new Dictionary<string, Bitmap>();
