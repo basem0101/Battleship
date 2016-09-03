@@ -275,11 +275,15 @@ static class UtilityFunctions
 		_Animations.Add(s);
 	}
 
+	/// <summary>
+	/// Updates the active animations.
+	/// </summary>
 	public static void UpdateAnimations()
 	{
 		List<Sprite> ended = new List<Sprite>();
 		foreach (Sprite s in _Animations) {
 			SwinGame.UpdateSprite(s);
+			
 			if (s.animationHasEnded) {
 				ended.Add(s);
 			}
@@ -291,6 +295,9 @@ static class UtilityFunctions
 		}
 	}
 
+	/// <summary>
+	/// Draws the animations.
+	/// </summary>
 	public static void DrawAnimations()
 	{
 		foreach (Sprite s in _Animations) {
@@ -298,6 +305,9 @@ static class UtilityFunctions
 		}
 	}
 
+	/// <summary>
+	/// Draws the animation sequence.
+	/// </summary>
 	public static void DrawAnimationSequence()
 	{
 		int i = 0;

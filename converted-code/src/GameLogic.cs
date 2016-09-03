@@ -1,5 +1,8 @@
 using SwinGameSDK;
 
+/// <summary>
+/// GameLogic contains the main game loop
+/// </summary>
 static class GameLogic
 {
 	public static void Main()
@@ -10,6 +13,7 @@ static class GameLogic
 		//Load Resources
 		GameResources.LoadResources();
 
+		//Play Background Music
 		SwinGame.PlayMusic(GameResources.GameMusic("Background"));
 
 		//Game Loop
@@ -18,6 +22,7 @@ static class GameLogic
 			GameController.DrawScreen();
 		} while (!(SwinGame.WindowCloseRequested() == true | GameController.CurrentState == GameState.Quitting));
 
+		//Stop Background Music
 		SwinGame.StopMusic();
 
 		//Free Resources and Close Audio, to end the program.
