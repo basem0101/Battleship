@@ -127,7 +127,7 @@ static class HighScoreController
 		for (i = 0; i <= _Scores.Count - 1; i++) {
 			Score s = default(Score);
 
-			s = _Scores.Item(i);
+			s = _Scores[i];
 
 			//for scores 1 - 9 use 01 - 09
 			if (i < 9) {
@@ -164,7 +164,7 @@ static class HighScoreController
 			LoadScores();
 
 		//is it a high score
-		if (value > _Scores.Item(_Scores.Count - 1).Value) {
+		if (value > _Scores[(_Scores.Count - 1)].Value) {
 			Score s = new Score();
 			s.Value = value;
 

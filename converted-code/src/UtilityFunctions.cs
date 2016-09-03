@@ -261,7 +261,7 @@ static class UtilityFunctions
 		Sprite s = default(Sprite);
 		Bitmap imgObj = default(Bitmap);
 
-		imgObj = GameImage(image);
+		imgObj = GameResources.GameImage(image);
 		imgObj.SetCellDetails(40, 40, 3, 3, 7);
 
 		AnimationScript animation = default(AnimationScript);
@@ -284,7 +284,7 @@ static class UtilityFunctions
 		foreach (Sprite s in _Animations) {
 			SwinGame.UpdateSprite(s);
 			
-			if (s.animationHasEnded) {
+			if (s.AnimationHasEnded) {
 				ended.Add(s);
 			}
 		}
