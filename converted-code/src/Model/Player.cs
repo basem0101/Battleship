@@ -89,7 +89,7 @@ public class Player : IEnumerable<Ship>
 		if (name == ShipName.None)
 			return null;
 
-		return _Ships.Item(name);
+		return _Ships[name];
 	}
 
 	/// <summary>
