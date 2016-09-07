@@ -1,5 +1,4 @@
-/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/obj/x86/Debug-Mac/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/SwinGame.dll
+/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/obj/x86/Debug-Windows/.NETFramework,Version=v4.0.AssemblyAttribute.cs
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/Resources/animations/startup.txt
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/Resources/bundles/FileDialog.txt
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/Resources/bundles/splash.txt
@@ -20,7 +19,6 @@
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/Resources/sounds/SwinGameStart.wav
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/Resources/SwinGame.icns
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/Resources/SwinGame.ico
-/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/MyGame.exe.mdb
 /Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/MyGame.exe
-/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/obj/x86/Debug-Mac/MyGame.exe
-/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/obj/x86/Debug-Mac/MyGame.exe.mdb
+/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/obj/x86/Debug-Windows/MyGame.exe
+/Users/fabiotk.kubo/Documents/Swinburne/SWE20001/Assignment4/Battleship/converted-code/bin/Debug/SwinGame.dll

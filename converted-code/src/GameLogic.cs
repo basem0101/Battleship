@@ -16,6 +16,8 @@ static class GameLogic
 		//Play Background Music
 		SwinGame.PlayMusic(GameResources.GameMusic("Background"));
 
+		GameController.PushStatesInStack();
+
 		//Game Loop
 		do {
 			GameController.HandleUserInput();

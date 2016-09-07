@@ -46,9 +46,8 @@ public static class GameController
 		get { return _ai; }
 	}
 
-	/* TODO: conversion pendence
-	  public GameController()
-	{
+	public static void PushStatesInStack(){
+		
 		//bottom state will be quitting. If player exits main menu then the game is over
 		_state.Push(GameState.Quitting);
 
@@ -56,7 +55,6 @@ public static class GameController
 		_state.Push(GameState.ViewingMainMenu);
 	}
 
-	*/
 	/// <summary>
 	/// Starts a new game.
 	/// </summary>
