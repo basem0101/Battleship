@@ -129,8 +129,7 @@ static class UtilityFunctions
 
 				draw = true;
 
-				//Changed: Steve 11:17 09-09-16
-				switch (grid.Item(row, col)) {
+				switch (grid[row, col]) {
 				//switch (grid[row, col]) {
 					//If small Then fillColor = _SMALL_SHIP Else fillColor = _LARGE_SHIP
 					case TileView.Miss:
